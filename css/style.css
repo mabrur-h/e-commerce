@@ -1,0 +1,9 @@
+.notification {
+    left: 22px;
+    top: -5px;
+    border-radius: 50% !important;
+}
+
+nav a {
+    color: white !important;
+}
