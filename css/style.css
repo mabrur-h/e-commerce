@@ -15,3 +15,12 @@ nav a {
 input:focus {
     box-shadow: none !important;
 }
+
+.price {
+    font-size: 24px;
+    color: rgb(78, 160, 255);
+}
+
+.card {
+    border: none !important;
+}
