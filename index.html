@@ -70,14 +70,14 @@
                                 <li><a class="dropdown-item" href="#">YUAN</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item me-2 d-flex align-items-center">
-                            <a class="nav-link position-absolute d-block">
-                                <img src="./img/korzina.svg" alt="korzina">
-                            </a>
-                            <span class="badge bg-primary notification position-relative">2</span>
-                        </li>
                     </ul>
                 </div>
+            </div>
+            <div class="position-relative d-flex align-items-center">
+                <a href="#" class="nav-link d-block">
+                    <img src="./img/korzina.svg" alt="korzina">
+                </a>
+                <span class="badge bg-primary notification position-absolute">2</span>
             </div>
         </div>
     </nav>
@@ -85,22 +85,20 @@
     <!-- header -->
 
     <div class="my-3">
-        <div class="container d-flex justify-content-between">
+        <div class="container d-flex align-items-center justify-content-between">
             <a class="navbar-brand" href="#">
                 <img src="./img/Logo.svg" alt="Logo">
             </a>
             <div class="input-group">
-                <input class="form-control py-2" type="search" value="search" id="example-search-input">
-                <span class="input-group-append">
-                  <button class="btn btn-outline-secondary" type="button">
-                      <img src="./img/search(4).svg" alt="search">
-                  </button>
-                </span>
+                <input class="form-control mx-md-5 py-2" type="search" placeholder="search" id="example-search-input">
           </div>
-          <div class="btn-group">
-              <div class="btn-primary">
-                  Log in
-              </div>
+          <div class="btn-group-md d-flex align-items-center">
+            <a href="#" class="btn btn-primary px-4 me-3">
+                Login
+            </a>
+            <a href="#" class="btn btn-dark">
+                Register
+            </a>
           </div>
         </div>
     </div>

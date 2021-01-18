@@ -1,9 +1,17 @@
 .notification {
-    left: 22px;
-    top: -5px;
+    left: 25px;
+    top: 0;
     border-radius: 50% !important;
 }
 
 nav a {
     color: white !important;
+}
+
+.btn {
+    border-radius: 4px !important;
+}
+
+input:focus {
+    box-shadow: none !important;
 }
